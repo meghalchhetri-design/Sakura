@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Sakura — a warm, educational space for women's menstrual, hormonal and reproductive health.">
+  <title>Sakura | Women's Health, Your Way</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="navbar" id="navbar">
+  <div class="container nav-container">
+    <a href="#home" class="brand" aria-label="Sakura home">
+      <img src="logo.png" alt="Sakura flower logo" class="brand-logo">
+      <span>SAKURA</span>
+    </a>
+
+    <div class="nav-links" id="navLinks">
+      <a href="#home">Home</a>
+      <a href="#explore-conditions">Explore Conditions</a>
+      <a href="#resources">Resources</a>
+      <a href="#about">About</a>
+    </div>
+
+    <a href="#choose" class="nav-cta">Get started <span>→</span></a>
+    <button class="mobile-menu" id="mobileMenu" aria-label="Open menu" aria-expanded="false">☰</button>
+  </div>
+</nav>
+
+<main>
+
+<section class="hero" id="home">
+  <div class="hero-petal petal-a">✿</div>
+  <div class="hero-petal petal-b">✿</div>
+  <div class="container hero-grid">
+    <div class="hero-content reveal">
+      <span class="eyebrow">A GENTLER SPACE FOR WOMEN'S HEALTH</span>
+      <h1>Your health.<br><span>Your story.</span><br><em>Your way.</em></h1>
+      <p>A warm, supportive place to understand your menstrual, hormonal and reproductive health — without judgment and without overwhelm.</p>
+      <div class="hero-buttons">
+        <a href="#choose" class="btn btn-primary">Start exploring <span>→</span></a>
+        <a href="#explore-conditions" class="btn btn-secondary">How Sakura works</a>
+      </div>
+      <p class="hero-note"><span>✦</span> Educational support, not a replacement for medical care.</p>
+    </div>
+
+    <div class="hero-visual reveal">
+      <div class="hero-orbit orbit-one"></div>
+      <div class="hero-orbit orbit-two"></div>
+      <div class="hero-flower-card">
+        <img src="logo.png" alt="Sakura flowers" class="hero-logo-art">
+        <div class="hero-card-copy">
+          <span>SAKURA</span>
+          <strong>Women's health,<br>made gentler.</strong>
+          <small>Choose. Learn. Feel empowered.</small>
+        </div>
+      </div>
+      <div class="floating-card float-left"><span>♡</span><div><b>Listen</b><small>to your body</small></div></div>
+      <div class="floating-card float-right"><span>✦</span><div><b>Understand</b><small>your questions</small></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="mini-intro">
+  <div class="container intro-grid">
+    <div><span>01</span><strong>Choose</strong><p>Start with what feels relevant to you.</p></div>
+    <div><span>02</span><strong>Learn</strong><p>Explore information in simple language.</p></div>
+    <div><span>03</span><strong>Feel empowered</strong><p>Leave with more clarity and better questions.</p></div>
+  </div>
+</section>
+
+<section class="choose-section section" id="choose">
+  <div class="container">
+    <div class="section-heading split reveal">
+      <div><span class="eyebrow">CHOOSE</span><h2>Start where <em>you are.</em></h2></div>
+      <p>You don't need to know exactly what you're looking for. Pick a place to begin and Sakura will take you from there.</p>
+    </div>
+
+    <div class="choice-grid">
+      <button class="choice-card pink-card reveal" data-topic="period">
+        <span class="choice-icon">🌸</span><span class="choice-number">01</span>
+        <h3>My period</h3><p>Cycles, cramps, PMS, bleeding and changes worth understanding.</p><span class="card-link">Explore <b>→</b></span>
+      </button>
+      <button class="choice-card plum-card reveal" data-topic="hormones">
+        <span class="choice-icon">♡</span><span class="choice-number">02</span>
+        <h3>My hormones</h3><p>PCOS, PMDD and hormonal changes explained gently.</p><span class="card-link">Explore <b>→</b></span>
+      </button>
+      <button class="choice-card olive-card reveal" data-topic="reproductive">
+        <span class="choice-icon">✿</span><span class="choice-number">03</span>
+        <h3>Reproductive health</h3><p>Fertility, pregnancy, infections and reproductive wellbeing.</p><span class="card-link">Explore <b>→</b></span>
+      </button>
+      <button class="choice-card blush-card reveal" data-topic="nutrition">
+        <span class="choice-icon">🥗</span><span class="choice-number">04</span>
+        <h3>My nutrition</h3><p>Practical, nourishing food ideas without restrictive rules.</p><span class="card-link">Explore <b>→</b></span>
+      </button>
+    </div>
+
+    <div class="choice-panel" id="choicePanel" aria-live="polite">
+      <div class="choice-panel-art"><img src="logo.png" alt="Sakura flower"></div>
+      <div><span class="eyebrow" id="choiceEyebrow">A PLACE TO BEGIN</span><h3 id="choiceTitle">Choose what feels relevant.</h3><p id="choiceText">You can change direction whenever you like. Sakura is here to help you explore, not overwhelm you.</p><button class="btn btn-primary" id="choiceAction">Explore support →</button></div>
+    </div>
+  </div>
+</section>
+
+<section class="explore-conditions section" id="explore-conditions" aria-label="Explore conditions">
+  <div class="container">
+    <div class="explore-intro reveal">
+      <div>
+        <span class="eyebrow">EXPLORE CONDITIONS</span>
+        <h2>Let's focus on <em class="focus-pink">what matters to you.</em></h2>
+        <p>Choose a health area, then choose one condition. Sakura keeps the information, support and nutrition help together so you never have to hunt for the next step.</p>
+      </div>
+      <div class="explore-mark" aria-hidden="true"><img src="logo.png" alt=""></div>
+    </div>
+
+    <div class="explore-steps" aria-label="Sakura journey">
+      <span class="explore-step active"><b>01</b> Health area</span>
+      <span class="explore-line"></span>
+      <span class="explore-step"><b>02</b> Condition</span>
+      <span class="explore-line"></span>
+      <span class="explore-step"><b>03</b> Understand</span>
+      <span class="explore-line"></span>
+      <span class="explore-step"><b>04</b> Nourish</span>
+    </div>
+
+    <div class="explore-area-picker" id="exploreAreaPicker">
+      <button type="button" class="area-pill active" data-area="period">♡ <span>Period</span></button>
+      <button type="button" class="area-pill" data-area="hormones">✦ <span>Hormones</span></button>
+      <button type="button" class="area-pill" data-area="reproductive">✿ <span>Reproductive health</span></button>
+      <button type="button" class="area-pill" data-area="all">All conditions</button>
+    </div>
+
+    <div class="explore-condition-stage">
+      <div class="condition-stage-head">
+        <div><span class="mini-label">STEP 02 · CHOOSE ONE</span><h3 id="exploreConditionHeading">What would you like to understand?</h3></div>
+        <label class="explore-search"><span>⌕</span><input type="search" id="exploreConditionSearch" placeholder="Search conditions..."></label>
+      </div>
+      <div class="explore-condition-grid" id="exploreConditionGrid"></div>
+    </div>
+
+    <div class="condition-detail" id="conditionDetail" hidden>
+      <div class="detail-top">
+        <button type="button" class="back-choice" id="backToConditions">← Choose another condition</button>
+        <span class="detail-topic" id="detailTopic">PERIOD</span>
+      </div>
+      <div class="detail-heading">
+        <div><span class="mini-label">STEP 03 · UNDERSTAND</span><h3 id="detailTitle">Condition</h3><p id="detailIntro"></p></div>
+        <div class="detail-flower"><img src="logo.png" alt="Sakura flower"></div>
+      </div>
+
+      <div class="condition-book" aria-label="Condition guide">
+        <div class="book-viewport" id="conditionBookViewport">
+          <div class="book-track" id="conditionBookTrack">
+            <article class="book-page book-cover">
+              <div class="book-cover-copy">
+                <span class="book-number">01</span>
+                <span class="book-kicker">A GENTLE START</span>
+                <h4 id="bookCoverTitle">Understanding your body</h4>
+                <p id="bookCoverText">A simple place to begin, without trying to tell you what your body means.</p>
+                <span class="book-turn">Turn the page <b>→</b></span>
+              </div>
+              <div class="book-cover-art"><img src="logo.png" alt="Sakura flower illustration"></div>
+            </article>
+
+            <article class="book-page book-info-page">
+              <div class="book-page-inner">
+                <span class="book-number">02</span>
+                <span class="book-kicker">UNDERSTAND</span>
+                <h4>What it means</h4>
+                <p id="detailMeaning"></p>
+                <div class="book-quote">Knowledge is a starting point, not a diagnosis.</div>
+              </div>
+              <div class="book-page-aside">
+                <span class="aside-label">KEEP IN MIND</span>
+                <ul id="detailMeaningPoints" class="book-point-list"></ul>
+                <div class="aside-flourish">♡</div>
+              </div>
+            </article>
+
+            <article class="book-page book-info-page">
+              <div class="book-page-inner">
+                <span class="book-number">03</span>
+                <span class="book-kicker">NOTICE</span>
+                <h4>What you may notice</h4>
+                <p id="detailNotice"></p>
+                <div class="book-heart">♡</div>
+              </div>
+              <div class="book-page-aside">
+                <span class="aside-label">LOOK OUT FOR</span>
+                <ul id="detailNoticePoints" class="book-point-list"></ul>
+                <p class="aside-small">Patterns matter more than one isolated day.</p>
+              </div>
+            </article>
+
+            <article class="book-page book-info-page">
+              <div class="book-page-inner">
+                <span class="book-number">04</span>
+                <span class="book-kicker">SUPPORT</span>
+                <h4>When to get support</h4>
+                <p id="detailCare"></p>
+                <div class="book-stars">✦ ✦</div>
+              </div>
+              <div class="book-page-aside support-aside">
+                <span class="aside-label">A CONVERSATION MAY HELP IF...</span>
+                <ul id="detailCarePoints" class="book-point-list"></ul>
+                <div class="support-reminder">You never need to wait until things feel “bad enough” to ask a question.</div>
+              </div>
+            </article>
+
+            <article class="book-page book-nourish-page">
+              <div class="book-page-inner">
+                <span class="book-number">05</span>
+                <span class="book-kicker">NOURISH</span>
+                <h4>Support yourself, gently.</h4>
+                <p>When you're ready, open the nutrition page for practical ideas connected to <em id="nutritionConditionName">this condition</em>.</p>
+                <button type="button" class="book-nutrition-btn" id="nutritionTrigger"><span>🌿</span> Show nutrition help <b>→</b></button>
+              </div>
+            </article>
+
+            <article class="book-page book-nutrition-detail">
+              <div class="book-page-inner">
+                <span class="book-number">06</span>
+                <span class="book-kicker">NUTRITION SUPPORT</span>
+                <h4>Small ways to nourish yourself.</h4>
+                <div class="book-food-columns">
+                  <div><span>MORE OF</span><ul id="bookNutritionHave"></ul></div>
+                  <div><span>GO EASY ON</span><ul id="bookNutritionLimit"></ul></div>
+                </div>
+                <p class="book-nutrition-note" id="bookNutritionNote"></p>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <div class="book-controls">
+          <button type="button" class="book-nav" id="bookPrev" aria-label="Previous page">← <span>Previous</span></button>
+          <div class="book-dots" id="bookDots" aria-label="Guide pages"></div>
+          <button type="button" class="book-nav" id="bookNext" aria-label="Next page"><span>Next</span> →</button>
+        </div>
+      </div>
+
+      <div class="inline-nutrition" id="inlineNutrition" hidden>
+        <div class="inline-nutrition-head"><div><span class="mini-label">NUTRITION SUPPORT</span><h4>Small ways to nourish yourself.</h4></div><span class="nutrition-badge">General guidance</span></div>
+        <div class="nutrition-columns"><div><span>MORE OF</span><ul id="nutritionHave"></ul></div><div><span>GO EASY ON</span><ul id="nutritionLimit"></ul></div></div>
+        <p class="nutrition-note" id="nutritionNote"></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="learn-section section journey-locked" id="learn">
+  <div class="container">
+    <div class="section-heading centered reveal"><span class="eyebrow">LEARN</span><h2>Understanding your body can feel a little <em>easier.</em></h2><p>Clear, approachable guides for the questions you might be carrying.</p></div>
+    <div class="learn-grid">
+      <article class="learn-card large-card reveal" data-learn-topic="period"><div class="article-art art-1"><span>🌷</span></div><div class="article-copy"><span class="tag">MENSTRUAL HEALTH</span><h3>Why do periods hurt?</h3><p>Understand common causes of period pain, what can help and when it's worth getting professional care.</p><button class="text-link" data-guide="period-pain">Read guide →</button></div></article>
+      <article class="learn-card reveal" data-learn-topic="hormones"><div class="article-art art-2"><span>♡</span></div><div class="article-copy"><span class="tag">HORMONES</span><h3>What is PCOS?</h3><p>A simple introduction to symptoms, hormones and questions you may want to ask.</p><button class="text-link" data-guide="pcos">Read guide →</button></div></article>
+      <article class="learn-card reveal" data-learn-topic="reproductive"><div class="article-art art-3"><span>✿</span></div><div class="article-copy"><span class="tag">REPRODUCTIVE HEALTH</span><h3>When should I seek help?</h3><p>Learn about signs that deserve a conversation with a healthcare professional.</p><button class="text-link" data-guide="care">Read guide →</button></div></article>
+    <div class="journey-next" id="learnNext"><span>01</span><div><strong>Ready for the next step?</strong><small>Move from understanding to practical nourishment.</small></div><button class="btn btn-primary" type="button" data-next="nutrition">Continue to nourish <b>→</b></button></div>
+  </div>
+</section>
+
+<section class="nutrition-section section journey-locked" id="nutrition">
+  <div class="container">
+    <div class="section-heading split reveal"><div><span class="eyebrow olive-eyebrow">NOURISH</span><h2>Food that supports <em>you.</em></h2></div><p>No perfect diet. No fear around food. Just practical nutrition information and meal inspiration you can actually use.</p></div>
+
+    <div class="meal-grid">
+      <article class="meal-card reveal"><div class="meal-photo meal-breakfast"><span>🥣</span></div><div class="meal-copy"><span class="meal-label">BREAKFAST</span><h3>Gentle morning bowl</h3><p>Oats, yogurt or curd, fruit, nuts and seeds for a satisfying start.</p></div></article>
+      <article class="meal-card reveal"><div class="meal-photo meal-lunch"><span>🍛</span></div><div class="meal-copy"><span class="meal-label">LUNCH</span><h3>Comforting balanced plate</h3><p>Dal, rice, vegetables and curd — familiar food with plenty of nourishment.</p></div></article>
+      <article class="meal-card reveal"><div class="meal-photo meal-dinner"><span>🍗</span></div><div class="meal-copy"><span class="meal-label">DINNER</span><h3>Simple nourishing dinner</h3><p>Protein, vegetables and a satisfying carbohydrate source, without complicated rules.</p></div></article>
+    </div>
+
+    <div class="nutrition-callout reveal"><div class="callout-flower"><img src="logo.png" alt="Sakura flower"></div><div><span class="eyebrow">PERSONALIZED SUPPORT</span><h3>Want nutrition information for a specific condition?</h3><p>Choose a condition and Sakura can show general foods to include, foods to limit and important notes.</p></div><a href="#support" class="btn btn-olive" id="nutritionNext">Explore nutrition →</a></div>
+  </div>
+</section>
+
+<section class="support-section section journey-locked" id="support">
+  <div class="container">
+    <div class="support-shell">
+      <div class="support-copy reveal"><span class="eyebrow light-eyebrow">EXPLORE YOUR SUPPORT</span><h2>Find support for <em>your story.</em></h2><p>Choose one or more health areas you'd like Sakura to keep in mind.</p><div class="support-actions"><button class="btn btn-light" id="viewNutrition">View nutrition support <span>→</span></button><button class="ghost-light" id="clearSelections">Clear selections</button></div></div>
+      <div class="support-art"><img src="logo.png" alt="Sakura flowers"></div>
+    </div>
+
+    <div class="condition-layout">
+      <aside class="condition-sidebar">
+        <span class="mini-label">YOUR SUPPORT</span><h3 id="selectionCount">0 conditions</h3>
+        <div id="selectedConditions" class="selected-conditions"><div class="empty-selection"><span>♡</span><p>Nothing selected yet.<br>Choose a condition to begin.</p></div></div>
+      </aside>
+      <div class="condition-browser">
+        <div class="browser-top"><div><span class="mini-label">WHAT WOULD YOU LIKE SUPPORT WITH?</span><h3>Choose a health area</h3></div><label class="search-box"><span>⌕</span><input type="search" id="conditionSearch" placeholder="Search conditions..."></label></div>
+        <div class="category-list" id="categoryList"></div>
+      </div>
+    </div>
+
+    <div class="diet-container" id="dietContainer"></div>
+  </div>
+</section>
+
+<section class="empower-section section journey-locked" id="empower">
+  <div class="container">
+    <div class="empower-header reveal"><span class="eyebrow light-eyebrow">FEEL EMPOWERED</span><h2>You don't have to <em>figure it all out</em> at once.</h2><p>Start with one question. Learn one thing. Take the next step when you're ready.</p></div>
+    <div class="empower-grid">
+      <button class="empower-card" data-info="understand"><span>🌸</span><h3>Understand</h3><strong>Know what's happening.</strong><p>Condition guides, symptoms and explanations in plain language.</p><b>Explore →</b></button>
+      <button class="empower-card" data-info="nourish"><span>🥗</span><h3>Nourish</h3><strong>Take care of yourself.</strong><p>Nutrition guidance and simple meal ideas that feel practical.</p><b>Explore →</b></button>
+      <button class="empower-card" data-info="prepare"><span>♡</span><h3>Prepare</h3><strong>Feel ready to speak up.</strong><p>Questions to ask, things to track and when to seek care.</p><b>Explore →</b></button>
+    </div>
+    <div class="empower-panel" id="empowerPanel" aria-live="polite"><span class="panel-icon" id="empowerIcon">🌸</span><div><span class="eyebrow light-eyebrow" id="empowerEyebrow">A LITTLE SUPPORT</span><h3 id="empowerTitle">You can take this one step at a time.</h3><p id="empowerText">There is no prize for figuring everything out at once. Sakura is here whenever you need a starting point.</p></div></div>
+    <div class="journey-next journey-next-dark" id="resourcesNext"><span>03</span><div><strong>Need to go a little deeper?</strong><small>Find trusted information beyond Sakura.</small></div><button class="btn btn-light" type="button" data-next="resources">Explore resources <b>→</b></button></div>
+  </div>
+</section>
+
+<section class="resources-section section journey-locked" id="resources">
+  <div class="container">
+    <div class="resources-intro reveal">
+      <div class="resources-heading">
+        <span class="eyebrow">RESOURCES</span>
+        <h2>Support beyond <em>Sakura.</em></h2>
+        <p>Sometimes information is the first step. When you want to learn more, prepare for a conversation or find professional support, these trusted resources can help you take the next one.</p>
+      </div>
+      <div class="resources-flower" aria-hidden="true"><img src="logo.png" alt=""></div>
+    </div>
+
+    <div class="resource-grid">
+      <a class="resource-card resource-pink reveal" href="https://www.who.int/health-topics/womens-health" target="_blank" rel="noopener noreferrer">
+        <div class="resource-icon">🌍</div>
+        <div class="resource-card-body">
+          <span class="resource-type">GLOBAL HEALTH</span>
+          <h3>World Health Organization</h3>
+          <p>Explore broad women's-health and sexual and reproductive-health information from a global public-health organization.</p>
+          <span class="resource-link">Visit resource <b>↗</b></span>
+        </div>
+      </a>
+
+      <a class="resource-card resource-lavender reveal" href="https://www.nhs.uk/womens-health/" target="_blank" rel="noopener noreferrer">
+        <div class="resource-icon">♡</div>
+        <div class="resource-card-body">
+          <span class="resource-type">HEALTH INFORMATION</span>
+          <h3>NHS Women's Health</h3>
+          <p>Accessible information covering periods, pregnancy, menopause, reproductive health, symptoms and more.</p>
+          <span class="resource-link">Visit resource <b>↗</b></span>
+        </div>
+      </a>
+
+      <a class="resource-card resource-plum reveal" href="https://www.acog.org/womens-health" target="_blank" rel="noopener noreferrer">
+        <div class="resource-icon">✿</div>
+        <div class="resource-card-body">
+          <span class="resource-type">OB-GYN GUIDANCE</span>
+          <h3>ACOG</h3>
+          <p>Patient-friendly, evidence-based information from the American College of Obstetricians and Gynecologists.</p>
+          <span class="resource-link">Visit resource <b>↗</b></span>
+        </div>
+      </a>
+
+      <a class="resource-card resource-olive reveal" href="https://www.mayoclinic.org/healthy-lifestyle/womens-health/basics/womens-health/hlv-20049411" target="_blank" rel="noopener noreferrer">
+        <div class="resource-icon">🌿</div>
+        <div class="resource-card-body">
+          <span class="resource-type">PATIENT GUIDES</span>
+          <h3>Mayo Clinic Women's Health</h3>
+          <p>Patient-oriented information on women's health, life stages, symptoms and common health questions.</p>
+          <span class="resource-link">Visit resource <b>↗</b></span>
+        </div>
+      </a>
+    </div>
+
+    <div class="trusted-strip reveal">
+      <div class="trusted-copy"><span class="mini-label">A FEW PLACES TO START</span><strong>Trusted information, one click away.</strong><p>Sakura links out to the original organizations so you can read the full, current guidance directly from them.</p></div>
+      <div class="trusted-links">
+        <a href="https://www.who.int/health-topics/womens-health" target="_blank" rel="noopener noreferrer"><span>WHO</span><small>Global health</small></a>
+        <a href="https://www.nhs.uk/womens-health/" target="_blank" rel="noopener noreferrer"><span>NHS</span><small>Health information</small></a>
+        <a href="https://www.acog.org/womens-health" target="_blank" rel="noopener noreferrer"><span>ACOG</span><small>Ob-gyn guidance</small></a>
+        <a href="https://www.mayoclinic.org/healthy-lifestyle/womens-health/basics/womens-health/hlv-20049411" target="_blank" rel="noopener noreferrer"><span>Mayo</span><small>Patient guides</small></a>
+      </div>
+    </div>
+
+    <div class="resource-note">
+      <span class="resource-note-icon">✦</span>
+      <div><strong>Need urgent help?</strong><p>Sakura is educational. If you have severe, sudden or worrying symptoms, seek appropriate urgent medical care rather than relying on this website.</p></div>
+    </div>
+    <p class="resource-disclaimer">Sakura is not affiliated with or endorsed by the organizations linked above. External sites may update their information independently.</p>
+  </div>
+</section>
+
+<section class="comfort-section section journey-locked">
+  <div class="container comfort-box reveal"><img src="logo.png" alt="Sakura flowers"><span class="eyebrow">A REMINDER FROM SAKURA</span><h2>You don't have to understand everything <em>today.</em></h2><p>Your body isn't a problem to solve. It's something worth understanding.</p><a href="#choose" class="btn btn-primary">Start with one question →</a></div>
+</section>
+
+<section class="about-section section journey-locked" id="about">
+  <div class="container about-grid">
+    <div class="reveal"><span class="eyebrow">ABOUT SAKURA</span><h2>Women's health deserves more <em>understanding.</em></h2></div>
+    <div class="about-copy reveal"><p>Sakura is designed as an educational companion for menstrual, hormonal and reproductive health. It helps organize information around conditions, nutrition and supportive care in a way that feels easier to explore.</p><p>It does not diagnose conditions or replace advice from a qualified healthcare professional.</p><div class="about-pill">🌸 Learn gently. Choose freely. Feel prepared.</div></div>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="container footer-top"><div><a href="#home" class="brand footer-brand"><img src="logo.png" alt="Sakura flower logo"><span>SAKURA</span></a><p>Women's health, your way.</p></div><div class="footer-links"><a href="#home">Home</a><a href="#choose">Explore</a><a href="#explore-conditions">Explore Conditions</a><a href="#resources">Resources</a><a href="#about">About</a></div></div>
+  <div class="container footer-bottom"><span>© 2026 Sakura</span><span>Educational information only.</span></div>
+</footer>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<div class="modal" id="guideModal" aria-hidden="true"><div class="modal-backdrop" data-close-modal></div><div class="modal-card"><button class="modal-close" data-close-modal aria-label="Close">×</button><span class="eyebrow" id="modalTag">SAKURA GUIDE</span><h2 id="modalTitle">A little more understanding.</h2><div id="modalBody"></div><a href="#resources" class="btn btn-primary" data-close-modal>Explore trusted resources →</a></div></div>
+
+<script src="script.js"></script>
+</body>
+</html>
